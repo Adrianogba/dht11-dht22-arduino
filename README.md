@@ -25,6 +25,10 @@ To see the feedback of the sensor go to:
 
 ![Alt text](images/serial-monitor.png?raw=true)
 
+You may receive the following message:
+* WARNING: library DHTlib claims to run on (atmelavr) archtecture(s) and may be incompatible with your current board which runs on (avr) architecture(s).
+Check if the pin selected in the code is the one conected to the DATA pin on the breadboard and then go to the Serial Monitor. If the results are been displayed, then you have nothing to fear... If don't that means that the driver used is outdated or your DHT sensor is not compatible with this library.
+
 ## License
 
 This project is licensed under the GLP v3.0 License - see the [LICENSE.md](LICENSE.md) file for details
